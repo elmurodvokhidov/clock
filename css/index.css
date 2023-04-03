@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .8);
+    border: 5px solid black;
+    position: relative;
+}
+
+.clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    transform: rotate(var(--rotation));
+}
+
+.clock .number1 {
+    --rotation: 30deg;
+}
+
+.clock .number2 {
+    --rotation: 60deg;
+}
+
+.clock .number3 {
+    --rotation: 90deg;
+}
+
+.clock .number4 {
+    --rotation: 120deg;
+}
+
+.clock .number5 {
+    --rotation: 150deg;
+}
+
+.clock .number6 {
+    --rotation: 180deg;
+}
+
+.clock .number7 {
+    --rotation: 210deg;
+}
+
+.clock .number8 {
+    --rotation: 240deg;
+}
+
+.clock .number9 {
+    --rotation: 270deg;
+}
+
+.clock .number10 {
+    --rotation: 300deg;
+}
+
+.clock .number11 {
+    --rotation: 330deg;
+}
+
+.arrow {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+}
+
+.arrow span {
+    display: inline-block;
+    width: 1.2px;
+    height: 8px;
+    background-color: black;
+}
+
+.clock .arrow1 {
+    --rotation: 6deg;
+}
+
+.clock .arrow2 {
+    --rotation: 12deg;
+}
+
+.clock .arrow3 {
+    --rotation: 18deg;
+}
+
+.clock .arrow4 {
+    --rotation: 24deg;
+}
+
+.clock .arrow5 {
+    --rotation: 30deg;
+    display: none;
+}
+
+.clock .arrow6 {
+    --rotation: 36deg;
+}
+
+.clock .arrow7 {
+    --rotation: 42deg;
+}
+
+.clock .arrow8 {
+    --rotation: 48deg;
+}
+
+.clock .arrow9 {
+    --rotation: 54deg;
+}
+
+.clock .arrow10 {
+    --rotation: 60deg;
+    display: none;
+}
+
+.clock .arrow11 {
+    --rotation: 66deg;
+}
+
+.clock .arrow12 {
+    --rotation: 72deg;
+}
+
+.clock .arrow13 {
+    --rotation: 78deg;
+}
+
+.clock .arrow14 {
+    --rotation: 84deg;
+}
+
+.clock .arrow15 {
+    --rotation: 90deg;
+    display: none;
+}
+
+.clock .arrow16 {
+    --rotation: 96deg;
+}
+
+.clock .arrow17 {
+    --rotation: 102deg;
+}
+
+.clock .arrow18 {
+    --rotation: 108deg;
+}
+
+.clock .arrow19 {
+    --rotation: 114deg;
+}
+
+.clock .arrow20 {
+    --rotation: 120deg;
+    display: none;
+}
+
+.clock .arrow21 {
+    --rotation: 126deg;
+}
+
+.clock .arrow22 {
+    --rotation: 132deg;
+}
+
+.clock .arrow23 {
+    --rotation: 138deg;
+}
+
+.clock .arrow24 {
+    --rotation: 144deg;
+}
+
+.clock .arrow25 {
+    --rotation: 150deg;
+    display: none;
+}
+
+.clock .arrow26 {
+    --rotation: 156deg;
+}
+
+.clock .arrow27 {
+    --rotation: 162deg;
+}
+
+.clock .arrow28 {
+    --rotation: 168deg;
+}
+
+.clock .arrow29 {
+    --rotation: 174deg;
+}
+
+.clock .arrow30 {
+    --rotation: 180deg;
+    display: none;
+}
+
+.clock .arrow31 {
+    --rotation: 186deg;
+}
+
+.clock .arrow32 {
+    --rotation: 192deg;
+}
+
+.clock .arrow33 {
+    --rotation: 198deg;
+}
+
+.clock .arrow34 {
+    --rotation: 204deg;
+}
+
+.clock .arrow35 {
+    --rotation: 210deg;
+    display: none;
+}
+
+.clock .arrow36 {
+    --rotation: 216deg;
+}
+
+.clock .arrow37 {
+    --rotation: 222deg;
+}
+
+.clock .arrow38 {
+    --rotation: 228deg;
+}
+
+.clock .arrow39 {
+    --rotation: 234deg;
+}
+
+.clock .arrow40 {
+    --rotation: 240deg;
+    display: none;
+}
+
+.clock .arrow41 {
+    --rotation: 246deg;
+}
+
+.clock .arrow42 {
+    --rotation: 252deg;
+}
+
+.clock .arrow43 {
+    --rotation: 258deg;
+}
+
+.clock .arrow44 {
+    --rotation: 264deg;
+}
+
+.clock .arrow45 {
+    --rotation: 270deg;
+    display: none;
+}
+
+.clock .arrow46 {
+    --rotation: 276deg;
+}
+
+.clock .arrow47 {
+    --rotation: 282deg;
+}
+
+.clock .arrow48 {
+    --rotation: 288deg;
+}
+
+.clock .arrow49 {
+    --rotation: 294deg;
+}
+
+.clock .arrow50 {
+    --rotation: 300deg;
+    display: none;
+}
+
+.clock .arrow51 {
+    --rotation: 306deg;
+}
+
+.clock .arrow52 {
+    --rotation: 312deg;
+}
+
+.clock .arrow53 {
+    --rotation: 318deg;
+}
+
+.clock .arrow54 {
+    --rotation: 324deg;
+}
+
+.clock .arrow55 {
+    --rotation: 330deg;
+    display: none;
+}
+
+.clock .arrow56 {
+    --rotation: 336deg;
+}
+
+.clock .arrow57 {
+    --rotation: 342deg;
+}
+
+.clock .arrow58 {
+    --rotation: 348deg;
+}
+
+.clock .arrow59 {
+    --rotation: 354deg;
+}
+
+.clock .arrow60 {
+    --rotation: 360deg;
+    display: none;
+}
+
+.clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 10;
+}
+
+.clock .second {
+    width: 4px;
+    height: 45%;
+    background-color: red;
+}
+
+.clock .minute {
+    width: 6px;
+    height: 40%;
+    background-color: black;
+}
+
+.clock .hour {
+    width: 8px;
+    height: 35%;
+    background-color: black;
+}
+
+.clock::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+}
